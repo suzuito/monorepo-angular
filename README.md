@@ -12,6 +12,6 @@ ng serve site2 --port=4202
 
 ```bash
 ng build lib1 --prod
-ng build site1 --prod
+ng build site1 --prod --base-href=/monorepo-angular --deploy-url=/monorepo-angular/
 ng build site2 --prod
 ```
